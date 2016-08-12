@@ -1,8 +1,5 @@
 (ns tectus.core)
 
-
-(ns gludox.cryptify)
-
 (defn str->nb [str_]
   (apply + (map int str_)))
 
