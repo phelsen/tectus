@@ -1,5 +1,5 @@
 (ns tectus.core
-  (require [clojure.java.io :as io]))
+  (:require [clojure.java.io :as io]))
 
 (defn- str->nb [str_]
   (apply + (map int str_)))
